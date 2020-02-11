@@ -6,7 +6,7 @@ dist:
 
 install: 
 - sh -c "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install.sh)"
-- eval $($HOME/.linuxbrew/bin/brew shellenv)
+- eval $(/home/.linuxbrew/bin/brew shellenv)
 
 script:
 - brew install git --HEAD
