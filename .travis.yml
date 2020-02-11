@@ -8,4 +8,4 @@ install:
 - sh -c "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install.sh)"
 
 script:
-- /home/.linuxbrew/bin/brew  install git --HEAD
+- /home/linuxbrew/.linuxbrew/bin/brew  install git --HEAD
